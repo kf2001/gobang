@@ -16,6 +16,11 @@ app.use(express.static('./public'));
 app.get('/', function (req, res) {
     res.redirect('/gobang.html');
 });
+
+app.get("/reboot", (req, res) => {
+git commit 
+  process.exit(1)
+})
 var activeClients = 0;
 
 
