@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 });
 
 app.get("/reboot", (req, res) => {
-git commit 
+
   process.exit(1)
 })
 var activeClients = 0;
